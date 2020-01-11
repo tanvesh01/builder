@@ -9,7 +9,10 @@ const orderSummary = (props) => {
         <React.Fragment>
             <h3>Your Order</h3>
             <p>A delicious burger is waiting with following ingredients:</p>
-            {ingredientSummary}
+            <div>{ingredientSummary}</div>
+            <p>Continue to checkout?</p>
+            <button>CANCEL</button>
+            <button>CONTINUE</button>
         </React.Fragment>
     )
 }
