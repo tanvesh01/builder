@@ -20,7 +20,7 @@ const orderSummary = props => {
       <p>Your checkout price is: <strong>{props.price}</strong></p>
       <p>Continue to checkout?</p>
       <Button clicked={props.cancel} classType="Danger">CANCEL</Button>
-      <Button classType="Success">CONTINUE</Button>
+      <Button classType="Success" clicked={props.continue} >CONTINUE</Button>
     </React.Fragment>
   );
 };
